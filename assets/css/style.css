@@ -22,9 +22,21 @@ h1, h2 {
     color: #415159;
 }
 
+h2 {
+    color: #2D3839;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
 #logo {
     float: left;
     font-size: 400%;
+}
+
+#sub-heading {
+    float: left;
+    text-decoration: none;
+    margin-left: 20px;
 }
 
 /*navigation links*/
@@ -32,10 +44,9 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    vertical-align: top;
 }
 
-#menu, #logo {
+#menu, #logo, #sub-heading {
     line-height: 150px;
 }
 
@@ -57,3 +68,11 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #2D3839;
 } 
+
+/* background image */
+
+#background-image {
+    height: 800px;
+    width: 100%;
+    background: url(../images/pontus-wellgraf-7SwIRRHckds-unsplash.jpg) no-repeat center center;
+}
