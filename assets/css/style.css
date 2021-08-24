@@ -80,6 +80,7 @@ h2 {
 
 #cover-container {
     position: absolute;
+    display: inline-block;
     left: 0;
     top: 20%;
     height: 550px;
@@ -93,4 +94,18 @@ h2 {
 #cover-image {
     background: url(../images/pikwizard-wavy-hair.jpg) no-repeat center center;
     height: 100%;
+}
+
+#ethos-container {
+    position: absolute;
+    display: inline-block;
+    background: #FF8B43;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+
+}
+
+#ethos-text {
+
 }
