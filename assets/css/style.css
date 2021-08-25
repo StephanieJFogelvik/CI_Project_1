@@ -73,7 +73,7 @@ h2 {
 /* background image */
 
 #background-image {
-    height: 800px;
+    height: 710px;
     width: 100%;
     background: url(../images/pontus-wellgraf-7SwIRRHckds-unsplash.jpg) no-repeat center center;
 }
@@ -88,7 +88,8 @@ h2 {
     height: 550px;
     width: 733px;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
     border-radius: 50px;
     z-index: 10;
 }
