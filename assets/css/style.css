@@ -113,8 +113,7 @@ h2 {
     width: 600px;
     padding: 30px;
     border-radius: 15px;
-    z-index: 12
-
+    z-index: 12;
 }
 
 #ethos-text {
@@ -123,5 +122,42 @@ h2 {
     color: #2D3839;
     font-weight: 600;
     font-style: italic;
+}
 
+/* Services and prices section */
+
+#prices-container {
+    background: url(../images/scissors.png) no-repeat center right;
+    height: 200px;
+    width: 100%;
+    float: right;
+    padding: 1px;
+}
+
+#prices {
+    background-color: #BEFCFF4D;
+    height: 200px;
+    width: 100%;
+    padding-top: 6px;
+}
+
+#prices h2 {
+    color: #454555;
+    font-weight: 900;
+}
+
+#gents {
+    display: inline-block;
+}
+
+#ladies {
+    display: inline-block;
+}
+
+#kids {
+    display: inline-block;
+}
+
+#senior {
+    display: inline-block;
 }
