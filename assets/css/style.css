@@ -127,8 +127,12 @@ h2 {
 
 /* Services and prices section */
 
+#section-2 {
+    display: block;
+}
+
 #prices-container {
-    background: url(../images/scissors.png) no-repeat center right;
+    background: url(../images/scissors.png) no-repeat center right #BEFCFF;
     height: 200px;
     width: 100%;
     float: right;
@@ -136,7 +140,6 @@ h2 {
 }
 
 #prices {
-    background-color: #BEFCFF4D;
     height: 200px;
     width: 100%;
     padding: 6px 12px;
@@ -190,4 +193,34 @@ h2 {
     text-shadow: #415159;
     font-size: large;
     font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    display:block;
+    height: 50px;
+    width: auto;
+}
+
+#footer-content {
+    height: 50px;
+    width: auto;
+}
+
+.social-networks {
+    display: block;
+    text-align: center;
+    background: #2D3839;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #BEFCFF;
 }
