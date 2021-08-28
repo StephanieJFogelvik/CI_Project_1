@@ -73,9 +73,10 @@ h2 {
 /* background image */
 
 #background-image {
-    height: 710px;
+    height: 762px;
     width: 100%;
     background: url(../images/pontus-wellgraf-7SwIRRHckds-unsplash.jpg) no-repeat center center;
+    z-index: 8;
 }
 
 /* cover image */
@@ -83,7 +84,7 @@ h2 {
 #cover-container {
     position: absolute;
     display: inline-block;
-    top: 20%;
+    top: 194px;
     left: 0;
     height: 550px;
     width: 733px;
@@ -126,10 +127,6 @@ h2 {
 }
 
 /* Services and prices section */
-
-#section-2 {
-    display: block;
-}
 
 #prices-container {
     background: url(../images/scissors.png) no-repeat center right #BEFCFF;
@@ -223,4 +220,28 @@ footer {
     margin: 1%;
     padding: 1%;
     color: #BEFCFF;
+}
+
+/* booking page */
+
+#booking-container {
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    left: 0;
+    height: 600px;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    z-index: 10;
+}
+
+#booking-pic {
+    background: url(../images/hair-salon-medium-size.jpg) no-repeat center center;
+    height: 600px;
+    width: 455px;
+    border-radius: 15px;
+    overflow: visible;
 }
