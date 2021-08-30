@@ -253,19 +253,62 @@ footer {
     top: 25%;
     left: 40%;
     height: 480px;
-    width: 550px;
+    max-width: 550px;
+    margin: auto;
     padding: 30px;
     border-radius: 15px;
     z-index: 12;
 }
 
-.submit-button {
-    position: absolute;
-    background: #2D3839;
-    color: #BEFCFF;
-    height: 50px;
-    width: max-content;
-    font-size: larger;
-    font-weight: bold;
-    border-radius: 15px;
-}
+    .form-section > h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .text-input {
+        background: #BEFCFF;
+        color: #2D3839;
+        width: 100%;
+        height: 25px;
+        padding: 2px 10px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #415159;
+        border-radius: 2px;
+    }
+    
+    .text-input:hover {
+        border-color: #FF8B43;
+    } 
+
+    .text-box {
+        background: #BEFCFF;
+        color: black;
+        width: 100%;
+        height: 70px;
+        font-family: inherit;
+        font-size: medium;
+        font-weight: bold;
+        padding: 10px;
+        margin: 5px 0 5px 0;
+        border: 1px solid #5B6768;
+        border-radius: 2px;
+    }
+    
+    .submit-button {
+        margin-top: 5px;
+        border-radius: 15px;
+        padding: 5px 32px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        background: #2D3839;
+        color: #BEFCFF;
+        display: block;
+    }
+    
+    .submit-button:hover {
+        background: #2D3839;
+        color: #BEFCFF;
+        border: 2px solid #FF8B43;
+    }
+
