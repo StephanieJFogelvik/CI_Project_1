@@ -79,7 +79,38 @@ h2 {
     z-index: 8;
 }
 
-/* cover image */
+#ctpg-outer {
+    height: 762px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#background-image-ctpg {
+    height: 762px;
+    width: 100%;
+    background: url(../images/blowdry-largesize.jpg) no-repeat center center;
+    background-size: cover;
+
+    /* animates zoom effect on loading contact page */
+    animation-name: contact-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for contact page image */
+@keyframes contact-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+/* cover image and cover text */
 
 #cover-container {
     position: absolute;
@@ -101,6 +132,50 @@ h2 {
     width: 550px;
     border-radius: 50px;
     overflow: hidden;
+}
+
+#ctpg-cover-text {
+    font-size: 150%;
+    font-family: 'Bad Script', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 600px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: #2D3839C4;
+
+    bottom: 20%;
+    right: 10%;
+
+    position: absolute;
+}
+
+#ctpg-cover-text, #ctpg-cover-text h2, h3, a {
+    color: #E4FEFF;
+    font-weight: 900;
+    text-align: center;
+}
+
+#ctpg-cover-text h3, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ctpg-cover-text > a {
+    font-size: 150%;
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #E4FEFF;
+    border-radius: 15px;
+
+    padding: 5px 15px;
+}
+
+#ctpg-cover-text a:hover {
+    border: 4px solid #FF8B43;
 }
 
 /* Ethos section */
@@ -311,4 +386,3 @@ footer {
         color: #BEFCFF;
         border: 2px solid #FF8B43;
     }
-
