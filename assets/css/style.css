@@ -222,7 +222,7 @@ footer {
     color: #BEFCFF;
 }
 
-/* booking page */
+/* booking page cover image and form */
 
 #booking-container {
     position: absolute;
@@ -244,4 +244,28 @@ footer {
     width: 455px;
     border-radius: 15px;
     overflow: visible;
+}
+
+.form-section {
+    background: #FF8B436B;
+    position: absolute;
+    display: inline-block;
+    top: 25%;
+    left: 40%;
+    height: 480px;
+    width: 550px;
+    padding: 30px;
+    border-radius: 15px;
+    z-index: 12;
+}
+
+.submit-button {
+    position: absolute;
+    background: #2D3839;
+    color: #BEFCFF;
+    height: 50px;
+    width: max-content;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 15px;
 }
