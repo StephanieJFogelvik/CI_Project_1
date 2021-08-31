@@ -5,85 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Högboms Frisör hair salon in Norrtelje, Sweden">
-    <meta name="keywords" content="högboms frisör, hair salon, hair, barber, hair styling, norrtälje, sweden">
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="keywords" content="högboms frisör, hair salon, hair, barber, hair styling, norrtelje, sweden">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .main-img {
+            background-image:
+            linear-gradient(to bottom, rgba(0,0,0,0), rgba(167, 76, 76, 0)),
+            url('assets/images/pontus-wellgraf-7SwIRRHckds-unsplash.jpg');
+            background-size: cover;
+        }
+        .light-bg{
+            background: #f2f2f2;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>
     <title>Högboms Frisör - The Best Hair Salon in Sweden </title>
 </head>
-<body>
+<body class="main-img">
     <header>
-        <a href="index.html">
-            <h1 id="logo">Högboms Frisör</h1>
-            <h2 id="sub-heading">The Best Hair Salon in Sweden</h2>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="book.html" aria-label="Go to our Booking Page">Book Now</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" aria-label="Go to our Contact Page">Contact</a>
-                    </li>
-                    <li>
-                        <a href="index.html" class="active" aria-label="Go to our Home Page">Home</a>
-                    </li>
-                </ul>
-            </nav>
+    <!--Navigation element-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom-white">
+        <a class="navbar-brand" href="index.html">
+            Högboms Frisör
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--End Navigation Element-->
     </header>
-    <section id="section-1">
-        <div id="background-image">
-            <div id="cover-container">
-                <div id="cover-image"></div>
+
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img style="width: 100%" src="assets/images/pikwizard-wavy-hair.jpg">
             </div>
-            <div id="ethos-container">
-                <div id="ethos-text">
-                    <br>
-                    <p>Welcome to the most highly acclaimed hair salon of Sweden.</p>
-                    <br>
-                    <p>Founded in 1959, we have been providing expert service to a loyal clientele for generations.</p>
-                    <br>
-                    <p>Situated in the picturesque town of Norrtälje, a popular tourist destination, with many attractions.</p>
-                    <br>
-                    <p>We offer the highest standard of hairdressing services, while still maintaining the charm and comfort of a small, locally-owned business.</p>
-                    <br>
-                    <p>Our team is looking forward to taking care of you, and your lovely tresses. Just drop-in, or book today.</p>
-                    <br>
+            <div class="col-md-6">
+                <div class="light-bg">
+                    <p class="mb-5">Welcome to the original hair salon of Scandinavia.</p>
+                    <p class="mb-5">Founded in 1959, we have been providing expert service to a loyal clientele for decades.</p>
+                    <p class="mb-5">Situated in the picturesque town of Norrtälje, a popular tourist destination, with many attractions.</p>
+                    <p class="mb-5">We offer the highest standard of hairdressing services, while still maintaining the charm and comfort of a small, locally-owned business.</p>
+                    <p class="mb-5">Our team is looking forward to taking care of you, and your lovely tresses. Just drop-in, or book today.</p>
                     <p>You will soon see why we are the BEST hair salon in Sweden.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container mt-5">
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Gents</h4>
                     </div>
+                    <div class="card-body">
+                        <h1><b>$20 </b><small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-outline-info">Book now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Gents</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1><b>$20 </b><small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-outline-info">Book now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Gents</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1><b>$20 </b><small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-outline-info">Book now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Gents</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1><b>$20 </b><small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-outline-info">Book now!</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <div id="prices-container">
-            <div id="prices">
-                <h2>Cuts and Prices:</h2>
-                <div id="gents">
-                    <br>
-                    <p>Gentlemen</p>
-                    <br>
-                    <p>20€</p>
-                </div>
-                <div id="ladies">
-                    <br>
-                    <p>Ladies</p>
-                    <br>
-                    <p>30€</p>
-                </div>
-                <div id="kids">
-                    <br>
-                    <p>Children</p>
-                    <br>
-                    <p>15€</p>
-                </div>
-                <div id="senior">
-                    <br>
-                    <p>Seniors</p>
-                    <br>
-                    <p>10€</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
     <footer>
         <div id="footer-content">
             <ul class="social-networks">
@@ -102,6 +149,10 @@
             </ul>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/eda526955e.js" crossorigin="anonymous"></script>
