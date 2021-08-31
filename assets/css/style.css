@@ -305,7 +305,7 @@ footer {
 
 /* booking page cover image and form */
 
-.booking-container {
+#booking-container {
     position: absolute;
     display: inline-block;
     top: 20%;
@@ -319,12 +319,12 @@ footer {
     z-index: 10;
 }
 
-.booking-pic {
+#booking-pic {
     background: url(../images/hair-salon-medium-size.jpg) no-repeat center center;
     height: 600px;
     width: 455px;
     border-radius: 15px;
-    overflow: visible;
+    overflow: hidden;
 }
  
 .form-section {
