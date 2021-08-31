@@ -31,7 +31,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 400%;
+    font-size: 350%;
 }
 
 #sub-heading {
@@ -436,3 +436,18 @@ background: #95B0B2;
 .review p {
     font-style: italic;
 }
+
+/* media queries */
+
+/* For larger to medium sized screens from 1412px wide and down */
+@media screen and (max-width: 1412px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
+/* For larger to medium sized screens from 1200px wide and down */
