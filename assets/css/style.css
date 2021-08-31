@@ -395,6 +395,13 @@ footer {
 
 /* Contact page */
 
+#header {
+    background: url(../images/header.jpg) no-repeat center center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+}
+
 #contact-outer {
     width: 100%;
     height: 500px;
