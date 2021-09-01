@@ -21,6 +21,10 @@
             padding: 10px;
         }
 
+        .book-button {
+            background-color: #A24000E6;
+        }
+
         /* footer and social media icons */
 
         .social-networks {
@@ -41,7 +45,7 @@
         }
 
         .social-networks i:hover {
-            background-color: #A24000E6;
+            background-color: #A2400099;
         }
     </style>
     <title>Högboms Frisör - The Best Hair Salon in Sweden </title>
@@ -82,7 +86,7 @@
     <!--End Navigation Element-->
     </header>
 
-<!-- Contact Information and Opening Hours-->
+    <!-- Booking Section-->
     <section class="container mt-5">
         <div class="row">
             <div class="col-md-6">
@@ -90,17 +94,40 @@
             </div>
             <div class="col-md-6">
                 <div class="light-bg">
-                    <h2 class="mb-4">Book Today!</h2>
-                    <p class="mb-4">fname</p>
-                    <p class="mb-4">lname</p>
-                    <p class="mb-4">email</p>
-                    <h2 class="mb-4">Radio Buttons</h2>
-                    <p class="mb-4">Booking Preferences:</p>
-                    <p class="mb-4">text-box</p>
-                    <p class="mb-4">Submit button</p>
+                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                        <h2 class="mb-4">Book Today!</h2>
+                        <label for="fname">First Name</label>
+                        <br>
+                        <input id="fname" name="first_name" type="text" class="text-input" required>
+                        <br>
+                        <label for="lname">Last Name</label>
+                        <br>
+                        <input id="lname" name="last_name" type="text" class="text-input" required>
+                        <br>
+                        <label for="email">Email Address</label>
+                        <br>
+                        <input type="email" id="email" name="email_address" class="text-input" required>
+                        <br>
+                        <input type="radio" id="mens-cut" name="haircut_preference" value="mens-cut" required>
+                        <label for="mens-cut">Mens Cut</label>
+                        <input type="radio" id="ladies-cut" name="haircut_preference" value="ladies-cut" required>
+                        <label for="ladies-cut">Ladies Cut</label>
+                        <input type="radio" id="kids-cut" name="haircut_preference" value="seniors-cut" required>
+                        <label for="kids-cut">Kids Cut</label>
+                        <input type="radio" id="seniors-cut" name="haircut_preference" value="seniors-cut" required>
+                        <label for="seniors-cut">Seniors</label>
+                        <br>
+                        <input type="date">
+                        <input type="time">
+                        <br>
+                        <button type="submit" class="book-button">Book Now</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
+  <!-- End Booking Section-->
+
     
     <footer>
         <div id="footer-content">
