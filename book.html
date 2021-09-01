@@ -21,8 +21,15 @@
             padding: 10px;
         }
 
+        /*Booking form */
+
+        .booking {
+            margin-bottom: 5%;
+        }
+
         .book-button {
-            background-color: #A24000E6;
+            background-color: #A2400033;
+            margin: 2%;
         }
 
         /* footer and social media icons */
@@ -90,11 +97,11 @@
     <section class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img style="width: 100%" src="assets/images/theme-photos-SYXxlEP5KAA-unsplash (1) (1).jpg" alt="Woman getting her hair done">
+                <img style="width: 100%" src="assets/images/theme-photos-SYXxlEP5KAA-unsplash.jpg" alt="Woman getting her hair done">
             </div>
             <div class="col-md-6">
                 <div class="light-bg">
-                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" class="booking">
                         <h2 class="mb-4">Book Today!</h2>
                         <label for="fname">First Name</label>
                         <br>
@@ -110,15 +117,15 @@
                         <br>
                         <input type="radio" id="mens-cut" name="haircut_preference" value="mens-cut" required>
                         <label for="mens-cut">Mens Cut</label>
-                        <input type="radio" id="ladies-cut" name="haircut_preference" value="ladies-cut" required>
+                        <input type="radio" id="ladies-cut" name="haircut_preference" value="ladies-cut">
                         <label for="ladies-cut">Ladies Cut</label>
-                        <input type="radio" id="kids-cut" name="haircut_preference" value="seniors-cut" required>
+                        <input type="radio" id="kids-cut" name="haircut_preference" value="seniors-cut">
                         <label for="kids-cut">Kids Cut</label>
-                        <input type="radio" id="seniors-cut" name="haircut_preference" value="seniors-cut" required>
+                        <input type="radio" id="seniors-cut" name="haircut_preference" value="seniors-cut">
                         <label for="seniors-cut">Seniors</label>
                         <br>
-                        <input type="date">
-                        <input type="time">
+                        <input type="date" required>
+                        <input type="time" required>
                         <br>
                         <button type="submit" class="book-button">Book Now</button>
                     </form>
